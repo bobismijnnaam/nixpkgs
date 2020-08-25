@@ -1,6 +1,6 @@
-{stdenv, fetchurl, cmake, libGLU, libGL, qt5, boost}:
+{stdenv, fetchurl, mkDerivation, cmake, libGLU, libGL, qt5, boost}:
 
-stdenv.mkDerivation rec {
+mkDerivation rec {
   version = "201707";
   build_nr = "1";
   pname = "mcrl2";

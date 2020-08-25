@@ -25896,7 +25896,7 @@ in
 
   metis-prover = callPackage ../applications/science/logic/metis-prover { };
 
-  mcrl2 = callPackage ../applications/science/logic/mcrl2 { };
+  mcrl2 = libsForQt5.callPackage ../applications/science/logic/mcrl2 { };
 
   minisat = callPackage ../applications/science/logic/minisat {};
 
